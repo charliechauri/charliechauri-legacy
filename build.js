@@ -13,7 +13,7 @@ const assets = [
     { input: './src/images/avatar.jpeg', output: './dist/images/avatar.jpeg' },
     { input: './src/images/logo.svg', output: './dist/images/logo.svg' },
     { input: './src/index.html', output: './dist/index.html' }
-];
+]
 
 assets.forEach(asset => fs.createReadStream(asset.input).pipe(fs.createWriteStream(asset.output)))
 
