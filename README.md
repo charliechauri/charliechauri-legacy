@@ -1,5 +1,5 @@
 # Charliechauri
 
-[![Logo](./images/charliechauri_logo.svg)](http://dev.charliechauri.com)
+[![Logo](./src/images/logo.svg)](http://dev.charliechauri.com)
 
 Personal website
