@@ -3,10 +3,10 @@
 
     win.onload = () => {
         let avatar = document.getElementById('avatar')
-        avatar.dataSet.currentPointerPosition = 'out'
+        avatar.dataset.currentPointerPosition = 'out'
         
         const toggleCurrentPosition = nodeItem => {
-            nodeItem.dataSet.currentPointerPosition = nodeItem.dataSet.currentPointerPosition === 'in' ? 'out' : 'in'
+            nodeItem.dataset.currentPointerPosition = nodeItem.dataset.currentPointerPosition === 'in' ? 'out' : 'in'
             nodeItem.className = 'hidden'
         }
 
